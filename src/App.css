@@ -92,8 +92,8 @@
 
 .down__value,
 .toGo__value,
-.ballOn__value,
-.quarter__value {
+.quarter__value,
+.ballOn__value {
   font-family: "Ozone";
   font-size: 5rem;
   color: var(--red);
@@ -104,6 +104,18 @@
   border-radius: 4px;
   padding: 1.6rem;
   border: 1px solid white;
+}
+
+.down__value {
+  background-color: #414141;
+  color: white;
+}
+
+.down__value:hover {
+  cursor: pointer;
+}
+.ballOn__value {
+  width: auto;
 }
 
 .buttons {
